@@ -26,7 +26,7 @@ double Distance::calcul ( const Sommet& A, const Sommet& B ) const
 }
 
 double Distance::calculManhattan (const Sommet& A, const Sommet& B) const{
-    double man = abs(B.getX() - A.getX()) + abs(B.getY()-A.getY());
+    double man = abs(B.getX() - A.getX()) + abs(B.getY() - A.getY());
     return man;
 }
 

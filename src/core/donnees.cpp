@@ -50,8 +50,6 @@ void Donnees::genere_carre( void ){
     double taille = rand() % 195-5;
     int i = 0;
     for(i=0; i < this->nb_donnees ; i++){
-    //while (i < this->nb_donnees){
-    //for(i=0; i < this->nb_donnees;i++){
         Sommet c2 = Sommet::random2D();
         if (c.getX() <= c2.getX() && c2.getX() <= c.getX() && c.getY() <= c2.getY() && c2.getY() <= c.getY()){
             this->lesDonnees->push_back(c2);
